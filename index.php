@@ -1,0 +1,211 @@
+<?php
+	include("common.inc");
+	display_header();
+?>
+<p><font color="#20941C" size="2" face="Arial"><b>How this commute service works?</b></font>
+</p>
+<p><font color="#000000" size="2" face="Arial"><b>Problem Statement</b></font>
+</p>
+<ul type="DISC">
+  <li><font size="2" face="Arial">Very few organizations 
+  provide pickup/drop service to their employees.</font></li>
+  <li><font size="2" face="Arial">Employees without office commute 
+  facilities have difficulty in using inefficient public transport, thereby 
+  increasing the use of personal and private vehicles.</font></li>
+  <li><font size="2" face="Arial">Congestion on roads is increased 
+  by usage of non-shared transport increasing stress &amp; decreasing 
+  productivity.</font></li>
+  <li><font size="2" face="Arial">Western concepts such as car 
+  pooling have proven ineffective in the Indian environment.</font></li>
+  <li><font size="2" face="Arial">Pollution is a great challenge 
+  in Indian metros’ and petrol is the valuable resource which we want 
+  to save.</font></li>
+</ul>
+
+<p align="center"><font color="#FF0000" size="2" face="Arial"><b><i>Indicates 
+clear demand for efficient commute solution targeting office goers </i></b></font></p>
+
+
+  
+<p><font color="#000000" size="2" face="Arial"><b>Solution</b></font>
+</p>
+<ul type="DISC">
+  <li><font size="2" face="Arial"><font style='color:#66CC00'><b>Green City</b></font>, A Commute market place
+  where </font></li>
+  <ul type="DISC">
+    <li><font size="2" face="Arial">Regular office commuters 
+    express intent to commute with daily commute details like pickup/drop 
+    points and time.</font></li>
+    <li><font size="2" face="Arial">Travel vendors provide customized 
+    commute solutions based on the expressed interest (time, source/destination 
+    etc.)</font></li>
+    <li><font size="2" face="Arial">Commuters with similar interests 
+    are aggregated and matched to an interested vendor</font></li>
+    </ul>
+  <li><font size="2" face="Arial">Benefits for commuters</font></li>
+  <ul type="DISC">
+    <li><font size="2" face="Arial"><u>Stress free</u>, <u>economic</u> 
+    travel in <u>optimal time</u>.</font></li>
+    </ul>
+  <li><font size="2" face="Arial">Benefits for Vendors</font></li>
+  <ul type="DISC">
+    <li><font size="2" face="Arial">New source of <u>revenues</u></font></li>
+    </ul>
+  <li><font size="2" face="Arial">Benefits for the ecosystem</font></li>
+  <ul type="DISC">
+    <li><font size="2" face="Arial"><u>Reduce pollution</u> &amp; <u>
+    congestion</u></font></li>
+</ul></ul>
+
+<!----
+  
+<p><font color="#000000" size="2" face="Arial"><b>
+
+
+
+
+
+Deep dive</b></font></p>
+<ul type="DISC">
+  <li><font size="2" face="Arial">Commuter subscribes via online 
+  registration form, providing daily commute details. </font></li>
+  <li><font size="2" face="Arial">Correspondingly, travel vendor 
+  registers with details of available inventory, price expectations, preferred 
+  timings &amp; routes.</font></li>
+  <ul type="DISC">
+    <li><font size="2" face="Arial">Vendors will also need 
+    verification in terms of PAN no., KST / CST no.</font></li>
+    </ul>
+  <li><font size="2" face="Arial">Travel vendor will login and 
+  query the list of people interested for the given source / destination 
+  / time.</font></li>
+  <li><font size="2" face="Arial">Based on the number of commuters, 
+  travel vendor will compute the vehicle size and sends monthly / quarterly 
+  / half yearly subscription fee details to commuters. (online)</font></li>
+  <li><font size="2" face="Arial">Vendors will contact commuters 
+  and decide payment terms and schedule. (offline)</font></li>
+  <li><font size="2" face="Arial">Commuters will confirm vendors 
+  online to avoid spam.</font></li>
+</ul>
+
+
+  
+
+<p><font color="#000000" size="2" face="Arial"><b>Incentives to Y!</b></font>
+</p>
+<ul type="DISC">
+  <li><font size="2" face="Arial">ECOMARC certification</font></li>
+  <ul type="DISC">
+    <li><font size="2" face="Arial">This initiative provides 
+    an opportunity to reduce the petrol consumption and in turn reducing 
+    the pollution level.</font></li>
+    <li><font size="2" face="Arial">Significant adoption of the 
+    scheme by commuters could allow Yahoo! could get </font><a href="http://envfor.nic.in/legis/others/ecomark.html" title="ECOMARC" target="_blank"><font color="#009999" size="2" face="Arial"><u>ECOMARC</u></font></a><font size="2" face="Arial"> stamping from the Govt. of India.</font></li>
+</ul></ul>
+
+<ul type="DISC">
+  <li><font size="2" face="Arial">Integration possibilities 
+  exist with other properties - Our City, Yahoo Maps, Yahoo Groups and 
+  other communities.</font></li>
+</ul>
+
+<ul type="DISC">
+  <li><font size="2" face="Arial">Opportunity for smaller businesses 
+  in India to move online and cross-selling opportunities (e.g. Small 
+  Business) will open up.</font></li>
+</ul>
+
+
+  
+
+<p><font color="#000000" size="2" face="Arial"><b>Architecture/Post 
+launch requirements</b></font></p>
+<ul type="DISC">
+  <li><font size="2" face="Arial">Yapache with mysql/php support</font></li>
+  <li><font size="2" face="Arial">Bulkmail support </font></li>
+  <li><font size="2" face="Arial">Y! login </font></li>
+  <li><font size="2" face="Arial">Travel vendor registration 
+  requests should be validated manually to avoid spams.</font></li>
+  <li><font size="2" face="Arial">Y! Map API’s</font></li>
+</ul>
+
+
+  
+
+<p><font color="#000000" size="2" face="Arial"><b>Challenges/Limitations 
+– How to Address</b></font></p>
+<ul type="DISC">
+  <li><font size="2" face="Arial">Once user subscribe to a specific 
+  travel vendor he/she might not come back to the site. So, might not 
+  drive much traffic into the site.</font></li>
+</ul>
+<ul><li><font size="2" face="Arial">Allow commuters 
+to subscribe one time trips as and when the need arise. Make travel 
+vendors to come up with optimistic dynamic pools for onetime trips.</font>
+</li></ul>
+<ul><li><font size="2" face="Arial">Show the price 
+comparisons to commuters.</font></li></ul>
+<ul type="DISC">
+  <li><font size="2" face="Arial">Initial adoption of travel 
+  vendors and commuters.</font></li>
+</ul>
+<font size="2" face="Arial">
+<ul><li>Email campaign
+<li>Provide 
+first year free subscription to travel vendors
+<li>Provide links from myCity, Y! India and other sites.</li></font>
+<ul type="DISC">
+  <li><font size="2" face="Arial">Registration process </font></li>
+</ul>
+<ul><li>    </font><font size="2" face="Arial">- 
+Manually someone has to allow/disallow the travel vendor registration 
+request to avoid spams from substandard vendors.</font></p>  
+
+<p><font color="#000000" size="2" face="Arial"><b>Pre launch</b></font>
+</p>
+<ul type="DISC">
+  <li><font size="2" face="Arial">Invite travel vendors and 
+  extract the seed data like </font></li>
+</ul>
+<ul><li>Price for the specific 
+routes with pool size and logistics.</li></ul>
+<ul><li>Publish the monthly 
+subscription prices with different pooled services</li></ul>
+<ul><li>Give comparison 
+against car/auto/taxi/two wheeler.</li></ul>
+<ul type="DISC">
+  <li><font size="2" face="Arial">Promote it to organizations 
+  where commute is not provided. (PR)</font></li>
+</ul>
+<ul><li> </li></ul>
+
+
+  
+
+<p><font color="#000000" size="2" face="Arial"><b>Business Model/Opportunities</b></font>
+</p>
+<ul type="DISC">
+  <li><font size="2" face="Arial">Commuters can freely subscribe</font></li>
+</ul>
+
+<ul type="DISC">
+  <li><font size="2" face="Arial">Travel vendors has to pay 
+  the annual subscription fee</font></li>
+</ul>
+
+<ul type="DISC">
+  <li><font size="2" face="Arial">Additional ad service to travel 
+  vendors to place about their organization/pooled weekend trips/customized 
+  trips.</font></li>
+</ul>
+
+<ul type="DISC">
+  <li><font size="2" face="Arial">Potential candidate to integrate 
+  with other yahoo properties like Our City, Yahoo Maps, Yahoo Travel 
+  and other communities.</font></li>
+</ul>
+</div>
+</div>-->
+<?php
+	display_footer();
+?>
